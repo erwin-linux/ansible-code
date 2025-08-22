@@ -3,6 +3,6 @@
   tasks:
   - name: adding a user with uid
     user:
-      name: mimi
-      uid: 30015
+      name: mimi123
+      uid: 30078
       state: present
