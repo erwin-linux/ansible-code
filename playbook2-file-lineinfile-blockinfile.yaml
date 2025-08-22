@@ -4,20 +4,20 @@
   tasks:
   - name: using file module
     file:
-      path: /home/shruti/file2.txt
+      path: /home/erwinn/file2.txt
       owner: shruti
       mode: 644
       state: touch
 
   - name: adding a line in the file
     lineinfile:
-      name:  /home/shruti/file2.txt
+      name:  /home/erwinn/file2.txt
       line:  lets learn the lineinfile module. 
       state: present
 
   - name: adding a block in  the file
     blockinfile:
-      name:  /home/shruti/file2.txt
+      name:  /home/erwinn/file2.txt
       block:  |
          this is first line in additional block 
          this is a second line of additional block of text
